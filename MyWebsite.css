@@ -1,0 +1,77 @@
+.style{
+    background-color: ivory;
+}
+
+.body{
+    padding: 0px;
+}
+
+.aboutMe {
+    background-color: ivory;
+    border: 2px solid rgb(73, 0, 128);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: bisque;
+    text-shadow: 0 0 5px #9713f0, 0 0 10px #9713f0, 0 0 15px #9713f0;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: honeydew;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carousel-item{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #ca94ef;
+    border: 1px solid rgb(73, 0, 128);
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    /*border radius, box-shadow*/
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 5px #9713f0, 0 0 10px #9713f0, 0 0 15px #9713f0;
+}
+
+.carousel-item:hover {
+    background-color: #9d30e6;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 0 10px #9d30e6;
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 5px #9713f0, 0 0 10px #9713f0, 0 0 15px #9713f0;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.footContact{
+    background-color: rgb(202, 177, 244);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
