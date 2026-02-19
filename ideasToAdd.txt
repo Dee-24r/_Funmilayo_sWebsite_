@@ -1,3 +1,33 @@
 Ideas for things to build.
 
 In your personal website, add Portfolio stuff. Add your email, GitHub, and whatever else.
+
+Home page - buttons for personal, for professional, or below (maybe place this below, since you already have your navbar, but still, can put it on top, they'll be tiles, plus that intro "I like afrobeats and apple juice")
+Feed - including anyhthing I want to share currently.
+Can write mu poem
+Friends' works
+Scrap book for the month.
+
+Portfolio - 
+Professional summary
+Education (depending on whether you want to show friends)
+Skills
+Awards and Achievements
+Leadership
+Clubs and Associations
+Projects
+
+Add links at the bottom to your github and all
+Like that girls page, at the end a button that says check me out personal
+
+My world
+Say your name and whatever you like
+Your hobbies
+foods, songs
+
+
+Scrapbook
+Add per months.
+
+Contact And links
+GitHub, LinkedIn, Email, any other
