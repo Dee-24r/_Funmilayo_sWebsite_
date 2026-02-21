@@ -31,3 +31,7 @@ Add per months.
 
 Contact And links
 GitHub, LinkedIn, Email, any other
+
+Purple means commited, but not synced.
+Stage/add
+commitedPus/sync

@@ -1,62 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 245, 225);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    /*border: 20px solid #ca94ef;*/
+}
+
+.grid-item-1, .grid-item-2, .grid-item-4, .grid-item-6, 
+.grid-item-7, .grid-item-8, .grid-item-9
+{
+    background-color: rgb(202, 177, 244);
+    border: none;
+}
+
 .style{
-    background-color: ivory;
-    margin: 0px;
-    padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .navbar{
-    background-color: rgb(234, 164, 220);
-    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    background-color: rgb(255, 245, 225);
+    height: 150px;
     font-family: calibri;
 }
 
-.navdiv{
-    align-items: center;
+/*JUST DELETED THIS DIV*/
+.navlinks{
+    align-content: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
+    list-style: none;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.logo{
+    color: rgb(202, 177, 244);
+    cursor: pointer;
 }
 
 .logo a{
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 35px;
-    font-weight: 600;
     font-family: 'calibri';
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600px;
+    color: rgb(202, 177, 244);
 }
 
-.pages li a{
+.pages a, .pages a:link, .pages a:visited,
+.pages a:active{
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(202, 177, 244);
     font-size: 20px;
     font-weight: bold;
-    list-style: none;
+    align-items: center;
+    cursor: pointer;
 }
 
-.pages li a:link,
-.pages li a:visited,
-.pages li a:hover,
-.pages li a:active {
-    text-decoration: none;
+.pages a:hover{
+    color: rgb(109, 73, 171);
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
 }
 
-.pages li{
-    display: inline-block;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-.navlinks{
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    gap: 30px;
-}
 
 
 
