@@ -1,3 +1,4 @@
+/*Work on the alignment next*/
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +19,6 @@
     font-family: calibri;
 }
 
-/*JUST DELETED THIS DIV*/
 .navlinks{
     align-content: center;
     justify-content: center;
