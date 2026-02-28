@@ -1,0 +1,50 @@
+.style{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.LinksDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.Links{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ca94ef;
+    display: inline-block;
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.Links a, .Links a:link, .Links a:visited{
+    text-decoration: none;
+    color: rgb(202, 177, 244);
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Links a:hover{
+    color: rgb(109, 73, 171);
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+}

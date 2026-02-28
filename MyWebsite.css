@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.navPageLink{
+
+}
+
 .navPageLink a:hover{
     color: rgb(109, 73, 171);
     font-size: 20px;
