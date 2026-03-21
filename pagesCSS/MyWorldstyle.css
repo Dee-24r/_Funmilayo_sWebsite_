@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfDiv1{
+    background-image : "../images/cityPic.jfif";
+    
+}
