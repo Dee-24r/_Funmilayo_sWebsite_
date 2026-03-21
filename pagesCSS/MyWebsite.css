@@ -53,7 +53,10 @@
 }
 
 .navPageLink{
-
+    /*Haven't edited anything here ...*/
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .navPageLink a:hover{

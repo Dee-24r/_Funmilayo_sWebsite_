@@ -32,6 +32,6 @@ function addNumbers(num1, num2){
     <button onclick="addNumbers()">Add</button><br>
     <p id="result"></p>
     
-    <script src="addNumbers.js"></script>
+    <script src="app.js"></script>
 </body>
 </html> */
