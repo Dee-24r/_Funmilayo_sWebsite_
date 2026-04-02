@@ -1,4 +1,4 @@
-var msg = "Hello World!";
+/*var msg = "Hello World!";
 console.log(msg);
 alert(msg);
 
@@ -15,7 +15,7 @@ function addNumbers(num1, num2){
 
     let sum = parseFloat(number1) + parseFloat(number2);
     document.getElementById("result").innerHTML = "The sum is: " + sum;
-}
+}*/
 
 /*<!DOCTYPE html>
 <html lang="en">

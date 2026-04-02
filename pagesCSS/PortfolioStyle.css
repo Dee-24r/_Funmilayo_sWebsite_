@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
 .portfDiv1{
     height: 50vh;
     /*Lowkey this diddn't look bad when I put a colour instead of image*/
@@ -130,6 +135,7 @@
     /*Add emojis for languages, and 
     the skill icon for technologies*/
     font-size: 20px;
+    transition: all 0.3s ease;
 }
 
 .skillListing{
@@ -149,5 +155,25 @@
     border-color: rgb(22, 225, 22);
     padding: 20px;
     font-size: 30px;
-    transition: all 0.3s ease;
+}
+
+
+
+
+/*WORK EXPERIENCE*/
+
+.leadershipDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.positionn{
+    background-color: #F0E2C4;
+    border: 0.1px;
+    border-style: solid;
+    border-color: #D4A96A;
+    width: 70vw;
+    height: 30vh;
 }
