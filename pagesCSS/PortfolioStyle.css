@@ -6,7 +6,7 @@
 
 
 .hero-section{
-    background: #F0E2C4;
+    background: linear-gradient(135deg, #F8F3FF 0%, #EDE2FF 45%, #DBCCF5 100%);
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -37,8 +37,6 @@
     color:black;
 }
 
-
-
 .abtDiv{
     height: 30vh;
     display: flex;
@@ -53,8 +51,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     height: 7vw;
-    width: 15vw;
-    background-color: #F6F2FC;
+    width: 17vw;
+    background-color: #ccb2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titlee{
@@ -62,14 +63,15 @@
     font-weight: bold;
     text-align: center;
     color: black;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .ans{
-    padding-top:10px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
     font-size: 16px;
     color: rgb(27, 25, 25);
-    margin-top: 5px;
     text-align: center;
 }
 
@@ -88,12 +90,13 @@
 
 .divHeadings{
     padding: 7px;
-    width: 80vw;
+    width: 40vw;
     background-color: #6D49AB;
     clip-path: polygon(0% 0%, 100% 0%, 96% 50%, 100% 100%, 0% 100%, 4% 50%);
 }
 
 /*Didn't want to disrupt the education card, spent so much time getting it to work*/
+
 .divHeads{
     margin-top: 30px;
 }
@@ -142,12 +145,12 @@
 .skill:hover{
     background-color: black;
     color: white;
-    box-shadow: 0 0 20px rgba(22, 225, 22, 0.5);
+    box-shadow: 0 0 20px rgba(145, 95, 236, 0.8);
     border-radius: 10px;
     width: 25vw;
     height: 30vh;
-    border-style: solid;
-    border-color: rgb(22, 225, 22);
+    border-style: 1px solid;
+    border-color: rgb(145, 95, 236);
     padding: 20px;
     font-size: 30px;
 }
@@ -193,6 +196,12 @@
     font-family: 'Courier New', monospace;
 }
 
+.divTitles2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
 .eDescription{
     font-size: 18px;
     color: rgb(27, 25, 25);
@@ -204,7 +213,6 @@
 
 .education-card{
     margin-top: clamp(72px, 8vw, 160px);
-    position: relative;
     overflow: visible;
     padding-top: 70px;
 }
@@ -214,12 +222,7 @@
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: min(80vw, 820px);
+    width: min(40vw, 410px);
     z-index: 2;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.16);
-}
-
-.education-card .divHeadings .eTitle{
-    color: #ffffff;
-    margin: 0;
 }

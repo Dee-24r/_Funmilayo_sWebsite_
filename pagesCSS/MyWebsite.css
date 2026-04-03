@@ -13,7 +13,7 @@
 /*-----------NAVBAR STARTS--------------*/
 
 .navbar{
-    background-color: whitesmoke;
+    background-color: white;
     height: 80px;
     margin-top: 20px;
     margin-left: 10px;
@@ -216,6 +216,26 @@
     align-items: center;
 }
 
+.footer{
+    margin-top: 4vh;
+    height: 15vh;
+    background-color: rgb(202, 177, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-decor{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.no-decor li a{
+    color: black;
+}
 
 /*.container{
     display: grid;
