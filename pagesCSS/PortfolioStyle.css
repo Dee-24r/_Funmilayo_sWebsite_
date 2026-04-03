@@ -5,17 +5,8 @@
 }
 
 
-.hero-section{
+.portfolioHero{
     background: linear-gradient(135deg, #F8F3FF 0%, #EDE2FF 45%, #DBCCF5 100%);
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 140px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .overlay-text{
@@ -52,7 +43,7 @@
     border-radius: 10px;
     height: 7vw;
     width: 17vw;
-    background-color: #ccb2ef;
+    background-color: #fff8dc;
     display: flex;
     flex-direction: column;
     align-items: center;

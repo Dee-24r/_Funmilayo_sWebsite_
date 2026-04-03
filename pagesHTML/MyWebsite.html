@@ -48,58 +48,121 @@
         </div>
     </nav>
 
+    <div class="hero-section">
+        <h1 class="myName">Oluwafunmilayo Oshebeyo</h1>
+        <h1 id="type" class="typewriterText"></h1>
 
-        <div class="pagesDiv">
+        <div class="notepad container">
+            <h1 class="bigNoteText">Hi, I'm Funmilayo D.</h1>
+            <p class="noteText">I'm a Freshman at the City University of New York - CSI, a Computer Science Major, and a Break Through Tech AI/ML fellow.</p>
+            <p class="noteText">My journey, both educational and personal, is one filled with leadership and excellence. 
+                I was the <span class="makeBold">Head Girl</span> in secondary school, the <span class="makeBold">Secretary General of the Student Council</span> in Foundation school, and currently the <span class="makeBold">Treasurer</span> of the Computer Science Club at my university. 
+                I've been <span class="makeBold">Valedictorian twice and counting</span>, and I am grateful for every opportunity and experience I have had.</p>
+            <p class="noteText">I enjoy trying out new things, hacking, and making cool stuff. I build both hardware and software projects, and I have major interests in Artificial Intelligence, its applications, and Robotic systems.</p>
+        </div>
+    </div>
 
 
-            <div class="linkToPagesBody">
-                <img src="../images/cityPic.jfif" alt="Achievements" class="image">
-                <div>
-                    <h1>Portfolio</h1>
-                    <h3>Achievements, Associations, and Experiences</h3>
+<!-- Bootstrap -->
+    <div class="projectsDisplay ">
+        <h1 class="someText">Here are some of my projects</h1>
+        <section id="projectsCarousel" class="projects-carousel" aria-label="Project carousel">
+            <button id="projectsPrev" class="projects-control" type="button" aria-label="Previous project">&#10094;</button>
+
+            <div class="projects-viewport">
+                <div class="projects-track">
+
+                    <div class="card project-card">
+                        <img src="../images/projects/deepadCad.png" class="card-img-top" alt="Deepad cad">
+                        <div class="card-body">
+                            <h5 class="card-title">Deepad v.1.0</h5>
+                            <p class="card-text">A custom macropad.</p>
+                            <a href="https://github.com/Dee-24r/Dee-pad_clean" target="_blank" class="btn btn-primary">See repository</a>
+                        </div>
+                    </div>
+
+                    <div class="card project-card">
+                        <img src="../images/projects/creepAndCollect.png" class="card-img-top" alt="Creep and Collect">
+                        <div class="card-body">
+                            <h5 class="card-title">Creep and Collect</h5>
+                            <p class="card-text">A cool game built with Godot.</p>
+                            <a href="https://hack-girl.itch.io/creep-and-collect" class="btn btn-primary">Play Game</a>
+                        </div>
+                    </div>
+
+                <div class="card project-card">
+                    <img src="../images/aiPic.jpeg" class="card-img-top" alt="AI Picture">
+                    <div class="card-body">
+                        <h5 class="card-title">AI Project</h5>
+                        <p class="card-text">A simple AI project built with Python and TensorFlow.</p>
+                        <a href="https://github.com/funmilayo-oshebeyo/ai-project" class="btn btn-primary">See repository</a>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <img src="../images/cityPic.jfif" class="card-img-top" alt="City skyline">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Highlights</h5>
+                        <p class="card-text">More hardware, software, and leadership experiences.</p>
+                        <a href="Portfolio.html" class="btn btn-primary">View Portfolio</a>
+                    </div>
+                </div>
                 </div>
             </div>
 
-            <div class="linkToPagesBody">
-                <img src="../images/city.jfif" alt="My World" class="image">
-                <div class="overlay-text-pages">
-                    <h1>My World</h1>
-                    <h3>Get to know me and my personal interests</h3>
-                </div>
+            <button id="projectsNext" class="projects-control" type="button" aria-label="Next project">&#10095;</button>
+        </section>
+    </div>
+
+    <!-- <div class="pagesDiv"></div>
+
+        <div class="linkToPagesBody">
+            <img src="../images/cityPic.jfif" alt="Achievements" class="image">
+            <div>
+                <h1>Portfolio</h1>
+                <h3>Achievements, Associations, and Experiences</h3>
             </div>
-
-            <div class="linkToPagesBody">
-                <img src="../images/aicaricature.jpeg" alt="Scrapbook" class="image">
-                <div class="overlay-text-pages">
-                    <h1>Scrapbook</h1>
-                    <h3>Recent activities</h3>
-                </div>
-            </div>
-
-            <div class="linkToPagesBody">
-                <img src="../images/aiPic.jpeg" alt="Contact" class="image">
-                <div class="overlay-text-pages">
-                    <h1>Contacts and Links</h1>
-                    <h3>Contact me and check out my social media links</h3>
-                </div>
-            </div>
-
-
         </div>
 
-          <footer class="footer">
-            <div style="margin-top: 30px;">
-                <ul class="no-decor">
-                    <li><a href="https://www.linkedin.com/in/funmilayo-oshebeyo">LinkedIn</a></li>
-                    <li><a href="https://github.com/funmilayo-oshebeyo">GitHub</a></li>
-                    <li><a href="https://hackatime.hackclub.com/@Hack_Girl">Hackatime</a></li>
-                </ul>
+        <div class="linkToPagesBody">
+            <img src="../images/city.jfif" alt="My World" class="image">
+            <div class="overlay-text-pages">
+                <h1>My World</h1>
+                <h3>Get to know me and my personal interests</h3>
             </div>
-            <p>&copy; 2026 My Website. All rights reserved.</p>
-        </footer>
+        </div>
+
+        <div class="linkToPagesBody">
+            <img src="../images/aicaricature.jpeg" alt="Scrapbook" class="image">
+            <div class="overlay-text-pages">
+                <h1>Scrapbook</h1>
+                <h3>Recent activities</h3>
+            </div>
+        </div>
+
+        <div class="linkToPagesBody">
+            <img src="../images/aiPic.jpeg" alt="Contact" class="image">
+            <div class="overlay-text-pages">
+                <h1>Contacts and Links</h1>
+                <h3>Contact me and check out my social media links</h3>
+            </div>
+        </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </div> -->
+
+    <footer class="footer">
+        <div style="margin-top: 30px;">
+            <ul class="no-decor">
+                <li><a href="https://www.linkedin.com/in/funmilayo-oshebeyo">LinkedIn</a></li>
+                <li><a href="https://github.com/funmilayo-oshebeyo">GitHub</a></li>
+                <li><a href="https://hackatime.hackclub.com/@Hack_Girl">Hackatime</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="../app.js"></script>
     </body>
