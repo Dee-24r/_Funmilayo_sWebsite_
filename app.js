@@ -113,8 +113,6 @@ if (projectsCarousel){
 }
 
 
-
-
 /*var msg = "Hello World!";
 console.log(msg);
 alert(msg);

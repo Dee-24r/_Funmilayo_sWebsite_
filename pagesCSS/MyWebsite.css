@@ -156,7 +156,7 @@
 .projects-carousel{
     --visible-items: 3;
     --gap: 16px;
-    margin: 40px 30px 0;
+    margin: 40px 30px 30px;
     position: relative;
     display: flex;
     align-items: center;
@@ -173,6 +173,7 @@
     gap: var(--gap);
     transition: transform 0.45s ease;
     will-change: transform;
+    margin-bottom: 3vh;
 }
 
 .project-card{
@@ -306,7 +307,7 @@
 } */
 
 .footer{
-    padding-top: 4vh;
+    padding: 4vh;
     height: 20vh;
     background-color: rgb(202, 177, 244);
     display: flex;

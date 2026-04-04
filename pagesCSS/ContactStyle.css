@@ -8,10 +8,17 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 2vh;
 }
 
-.LinksDiv{
+.contact-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.LinkDiv{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -21,30 +28,53 @@
     margin-top: 50px;
 }
 
-.Links{
-    width: 200px;
-    height: 100px;
+.linkContent{
+    width: 18vw;
+    min-height: 100px;
+    height: auto;
     border-radius: 20px;
     box-shadow: 0 0 10px #ca94ef;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
     text-align: center;
     gap: 20px;
 }
 
-.Links a, .Links a:link, .Links a:visited{
+.linkContent a, .linkContent a:link, .linkContent a:visited{
     text-decoration: none;
-    color: rgb(202, 177, 244);
+    color: rgb(190, 177, 244);
     font-size: 20px;
     font-weight: bold;
     align-items: center;
     cursor: pointer;
 }
 
-.Links a:hover{
-    color: rgb(109, 73, 171);
+.linkContent a:hover{
+    color: rgb(129, 73, 171);
     font-size: 20px;
     font-weight: bold;
     align-items: center;
     cursor: pointer;
+}
+
+.ansBox{
+    width: 80%;
+    max-width: 100%;
+    align-self: center;
+}
+
+.ansBox a, .ansBox a:link, .ansBox a:visited{
+    color: rgb(109, 73, 171);
+}
+
+.ansBox .ans{
+    display: block;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.contactfooter li a{
+    color: white;
 }
