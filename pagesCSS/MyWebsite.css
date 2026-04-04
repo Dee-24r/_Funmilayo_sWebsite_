@@ -197,6 +197,8 @@
 }
 
 .leftandrightbuttons{
+    margin-left: 1vw;
+    margin-right: 1vw;
     border: none;
     height: 42px;
     width: 42px;
