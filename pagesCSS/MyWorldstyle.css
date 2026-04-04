@@ -22,7 +22,7 @@
     margin-top: 20px;
 }
 
-/* 
+/* May come back to change the card sizing for persona
 .personaCard{
     width: 12vw;
     height: 40vh;
@@ -32,8 +32,40 @@
     height: 20vh;
     object-fit: cover;
 }
-
 */
+
 .persona-carousel{
     --gap: 40px;
+}
+
+.myFriendsCont{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.friends{
+    background-color:rgb(109, 73, 171);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.friend-item{
+    background-color: antiquewhite;
+    color: blueviolet;
+    width: 20vw;
+    height: 15vw;
+    border-radius: 10px;
+}
+
+.theirWork{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
