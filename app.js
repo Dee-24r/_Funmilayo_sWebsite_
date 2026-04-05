@@ -16,15 +16,13 @@ function typeWriter(target, text, speed = 50, onComplete = null){
     }
 }
 
-const portfText = "Tech Girl ● Adventurous spirit ● Cheerful heart";
+const portfText = "Tech Girl ● Adventurous spirit ● Always Learning";
 
 const introText = "Hi, I'm Funmilayo! I love technology, afrobeats, and apple juice.";
 const welcome = "Welcome to my world!";
-const remainingText = "I'm a CS girl; Christian, and Nigerian. I love dancing, hacking, learning, and making!";
 
 const introTarget = document.getElementById("introTextId");
 const welcomeTarget = document.getElementById("welcome");
-const remainingTarget = document.getElementById("remainingText");
 
 const portfTarget = document.getElementById("portfText");
 
@@ -37,13 +35,13 @@ typeWriter(portfTarget, portfText, 50);
 
 // Carousels
 // The JS for the carousel was done with the help of AI but I made some adjustments and I did the styling and html myself.
-const projectsCarousel = document.getElementById("projectsCarousel");
+const projectCarousels = document.querySelectorAll(".projects-carousel");
 
-if (projectsCarousel){
+projectCarousels.forEach((projectsCarousel) => {
     const viewport = projectsCarousel.querySelector(".projects-viewport");
     const track = projectsCarousel.querySelector(".projects-track");
-    const prevBtn = document.getElementById("projectsPrev");
-    const nextBtn = document.getElementById("projectsNext");
+    const prevBtn = projectsCarousel.querySelector(".leftandrightbuttons[aria-label='Previous project']");
+    const nextBtn = projectsCarousel.querySelector(".leftandrightbuttons[aria-label='Next project']");
     const cards = Array.from(track.querySelectorAll(".project-card"));
     let index = 0;
     let cardStep = 0;
@@ -77,8 +75,14 @@ if (projectsCarousel){
         const maxIndex = Math.max(0, cards.length - visibleCount);
         index = Math.min(Math.max(newIndex, 0), maxIndex);
         track.style.transform = `translateX(-${index * cardStep}px)`;
-        prevBtn.disabled = index === 0;
-        nextBtn.disabled = index === maxIndex;
+
+        if (prevBtn){
+            prevBtn.disabled = index === 0;
+        }
+
+        if (nextBtn){
+            nextBtn.disabled = index === maxIndex;
+        }
     }
 
     function setupCarousel(){
@@ -86,8 +90,13 @@ if (projectsCarousel){
         moveTo(index);
     }
 
-    nextBtn.addEventListener("click", () => moveTo(index + 1));
-    prevBtn.addEventListener("click", () => moveTo(index - 1));
+    if (nextBtn){
+        nextBtn.addEventListener("click", () => moveTo(index + 1));
+    }
+
+    if (prevBtn){
+        prevBtn.addEventListener("click", () => moveTo(index - 1));
+    }
 
     viewport.addEventListener("touchstart", (event) => {
         startX = event.changedTouches[0].clientX;
@@ -110,7 +119,7 @@ if (projectsCarousel){
 
     window.addEventListener("resize", setupCarousel);
     setupCarousel();
-}
+});
 
 
 /*var msg = "Hello World!";
