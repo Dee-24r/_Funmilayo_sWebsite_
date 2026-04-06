@@ -1,6 +1,8 @@
-# Hi, I'm Funmilayo
+## Hi, I'm Funmilayo, and I made myself a personal website.
 
-This website is live on Github Pages: https://dee-24r.github.io/FunmilayoOshebeyo/
+Website is live on Github Pages!: https://dee-24r.github.io/FunmilayoOshebeyo/
+
+![website Screenshot](images/WebsiteScreenshot.png)
 
 This is my personal website that I've made myself. My website contains 4 pages:
 - a home page (The home :D)
@@ -15,6 +17,6 @@ I'll definitely be making more edits in the near future. This site was made usin
 I created and downloaded my favicon from https://favicon.io/favicon-generator/
 ### Image credit:
 The AI image in the portfolio - I created it 2 months ago, by telling AI to create an image that represents me.
-The other random pics are from the internet. (Do I have to mention that?)
+The other random pics (like those in the My World page) are random downloads from Google search.
 
 View my website [here](https://dee-24r.github.io/FunmilayoOshebeyo/)
